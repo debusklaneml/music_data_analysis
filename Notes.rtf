@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue-Italic;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red255\green255\blue255;\red10\green77\blue204;
+\red21\green23\blue26;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18039;\cssrgb\c100000\c100000\c100000;\cssrgb\c1176\c40000\c83922;
+\cssrgb\c10588\c12157\c13725\c4706;}
+\margl1440\margr1440\vieww21260\viewh8380\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs48 \cf2 \cb3 \expnd0\expndtw0\kerning0
+An analysis of Bach's works using midi files\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0\fs32 \cf2 \cb3 In this analysis, we rank the notes and chords used in the works of J.S Bach. Furthermore, we identify the most used progressions of chords. Finally, we group works in clusters, according to their chords. For a discussion of the results of this code, please take a look at this {\field{\*\fldinst{HYPERLINK "https://towardsdatascience.com/bachs-favorite-note-b0542ba4f8f5"}}{\fldrslt \cf4 article}}\cb1 \
+\cb3 The 
+\f2\fs27\fsmilli13600 \cb5 creat-csv.sh
+\f1\fs32 \cb3  script converts a 
+\f3\i .midi
+\f1\i0  file to a 
+\f3\i .csv
+\f1\i0  file with the help of 
+\f2\fs27\fsmilli13600 \cb5 mid2asc
+\f1\fs32 \cb3  script. The code of 
+\f2\fs27\fsmilli13600 \cb5 mid2asc
+\f1\fs32 \cb3  was copied from {\field{\*\fldinst{HYPERLINK "http://www.archduke.org/midi/"}}{\fldrslt \cf4 this site}}. Only the compiled file is included here.\cb1 \
+\cb3 The midi files should be put in the 
+\f2\fs27\fsmilli13600 \cb5 midi
+\f1\fs32 \cb3  folder. The files were downloaded from {\field{\*\fldinst{HYPERLINK "https://www.mutopiaproject.org/"}}{\fldrslt \cf4 The Mutopia Project}}. Only a few example files are included here.\cb1 \
+\cb3 The 
+\f2\fs27\fsmilli13600 \cb5 make_all_csv.sh
+\f1\fs32 \cb3  scripts converts all the 
+\f3\i .midi
+\f1\i0  files to 
+\f3\i .csv
+\f1\i0  files and produces summary files for the notes, the chords and the chord progression of each midi files. In the end, the files are concatanated to summary files.\cb1 \
+\cb3 These summary files are analyzed in the jupyter notebook 
+\f2\fs27\fsmilli13600 \cb5 process_total_files
+\f1\fs32 \cb3 . The notebook also uses the 
+\f2\fs27\fsmilli13600 \cb5 keys.csv
+\f1\fs32 \cb3  file, which includes the music key of each work of Bach (indexed by their Bach works catalogue number) as scrapped from {\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/List_of_compositions_by_Johann_Sebastian_Bach#Works_in_Bach's_catalogues_and_collections"}}{\fldrslt \cf4 Wikipedia}}.}
