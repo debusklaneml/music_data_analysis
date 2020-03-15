@@ -1,4 +1,3 @@
-# bachmidi
 ## An analysis of Bach's works using midi files
 
 In this analysis, we rank the notes and chords used in the works of J.S Bach. Furthermore, we identify the most used  progressions of chords. Finally, we group works in clusters, according to their chords. For a discussion of the results of this code, please take a look at this [article](https://towardsdatascience.com/bachs-favorite-note-b0542ba4f8f5)
